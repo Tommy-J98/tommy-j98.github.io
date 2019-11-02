@@ -1,7 +1,9 @@
 body {background-color: #98a9ff;}
 body {color: white;}
 
-h1 { text-align: center}
+h1 { text-align: center;}
+.buttonHolder{text-align: center;}
+.demoHolder{text-align: center;}
 
 body {
   padding-top: 50px;

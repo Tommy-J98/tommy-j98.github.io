@@ -2,16 +2,27 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <script src="push.js"></script>
+
     <title>Water Reminder</title>
     <link rel = "stylesheet" type = "text/css" href = "stylesheet.css" />
     <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
   </head>
   <body>
     <h1>Hourly Reminder to drink water!</h1>
+  <div class="buttonHolder">
+      <button type="button">Desktop Notification Test</button>
+  </div>
+
+<div class="demoHolder">
 
     <p id="demo"></p>
 
+</div>
+
     <script>
+
+    Push.create("Hello world!");
 
     var i = 3600000;
     // Update the count down every 1 second
